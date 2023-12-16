@@ -1,0 +1,2 @@
+Ну если расматривать в разрорезе java и jdbc, то 
+"jdbc://mysql.example.com:3307?user=admin&password=pass"
