@@ -1,8 +1,8 @@
 <?php 
-$host = 'localhost:3306';
-$db   = 'mydb';
-$user = 'какой то пользователь';
-$pass = 'какой то пароль';
+$host = 'db:3306';
+$db   = 'skillboxdb';
+$user = 'root';
+$pass = 'test_pass';
 $charset = 'utf8';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

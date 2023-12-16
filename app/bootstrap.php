@@ -13,10 +13,10 @@ $isDevMode = false;
 // the connection configuration
 $dbParams = [
     'driver' => 'pdo_mysql',
-    'user' => 'Какой то пользователь',
-    'password' => 'Какой то пароль',
-    'dbname' => 'mydb',
-    'host' => 'localhost:3306',
+    'user' => 'root',
+    'password' => 'test_pass',
+    'dbname' => 'skillboxdb',
+    'host' => 'db:3306',
 ];
 
 $config = ORMSetup::createAttributeMetadataConfiguration($paths, $isDevMode);

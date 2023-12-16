@@ -11,5 +11,5 @@ $res = $userDao->activateUser(7490);
 if ($res) {
     echo "Юзер активирован!\n";
 } else {
-    echo "Не вышло!\n";
+    echo "Не вышло, юзер активен!\n";
 }
